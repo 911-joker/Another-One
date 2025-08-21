@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poly Specialist Hospital || Welcome</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+   <section>
+  <header class="container">
+    <nav>
+      <div class="logo">
+      <img src="./images/Poly.png">
+      <span><b>Poly Specialist</b> Hospital</span>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="">Contact Us</a></li>
+      <li><a href="vaccination.html" class="active">Vaccination</a></li>
+    </ul>
+
+    <div class="cta-btn">
+      <a href="#">Book Appointment</a>
+    </div>
+    </nav>
+  </header>
+  <!-- End Of Navbar -->
+
+
+  <!-- Vaccination -->
+   <section>
+    <h1>Check if your child is eligible for free vaccination</h1>
+    <div class="vaccine">
+        <div class="vaccination">
+        <form class="vaccine-form">
+         <label> Enter the age of child:</label><br>
+        <input type="number" placeholder="Age..." id="age" required><br>
+         <label> Does The Child Have Disease</label><br>
+        <select id="condition">
+            <option value=""></option>
+            <option value="y">Yes</option>
+            <option value="n">No</option>
+        </select><br>
+         <label> Enter Income:</label><br>
+         <input type="number" placeholder="Income..." id="income" required><br>
+         <button type="submit" class="form-btn">check</button>
+        <p class="checked">Your Child Is:<br><span id="check"></span></p>
+        </form>
+        </div>
+        <div class="vaccine-img">
+            <img src="./images/vaccination.jpg" alt="">
+        </div>
+    </div>
+   </section>
+
+
+      <footer>
+        <div class="footer-container">
+            <!--**comoany-box**-->
+            <div class="footer-company-box">
+                <!--logo-->
+                <div class="logo">
+                    <img src="./images/Poly.png">
+                    <span><b>Poly Specialist</b> Hospital</span>
+                </div>
+                <!--details-->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quas neque repudiandae nihil.</p>
+                <!--social-box-->
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <!--**link-box***-->
+            <div class="footer-link-box">
+                <strong>Main Link's</strong>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                </ul>
+            </div>
+            <!--**link-box***-->
+            <div class="footer-link-box">
+                <strong>External Link's</strong>
+                <ul>
+                    <li><a href="#">Our Product's</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Trem's and Condition's</a></li>
+                </ul>
+            </div>
+            <!--**link-box***-->
+            <div class="footer-link-box">
+                <strong>External Link's</strong>
+                <ul>
+                    <li><a href="#">Our Product's</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Trem's and Condition's</a></li>
+                </ul>
+            </div>
+            
+   
+        </div>
+
+        <!--**bottom**********************-->
+        <div class="footer-bottom">
+            <span class="copyright">&#169; Copyright 2025 -  Poly Specialist</span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
